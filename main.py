@@ -20,7 +20,7 @@ def index():
         movie_name = request.form.get('movie_name')
         
         if movie_name:  # Ensure the user entered a movie name
-            API_KEY = 'dbcb3176'  # Replace with your OMDb API key
+            API_KEY = '********'  # Replace with your OMDb API key
             BASE_URL = 'http://www.omdbapi.com/'  # Base URL for the OMDb API
 
             # Parameters for the API request
