@@ -1,0 +1,61 @@
+body {
+    background: linear-gradient(to bottom right, #4a90e2, #9013fe);
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+h1, .navbar-brand {
+    color: white;
+}
+
+.card {
+    background: #fff;
+    color: #333;
+}
+
+.img-fluid {
+    max-width: 100%; /* Ensure the poster scales within its column */
+    height: auto;    /* Maintain aspect ratio */
+    max-height: 400px; /* Limit the height of the poster */
+    object-fit: cover; /* Ensures proper image cropping if needed */
+}
+
+.card-body {
+    padding: 20px;
+    background-color: #000000; /* Optional: Background for the text box */
+    border-radius: 10px; /* Optional: Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow */
+}
+
+.row {
+    margin-top: 20px;
+    align-items: center; /* Vertically aligns the poster and info */
+}
+
+.col-md-4 {
+    text-align: center; /* Centers the poster in its column */
+}
+
+.recently-viewed {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #423d81;
+    border-radius: 10px;
+}
+
+.recent-movie {
+    text-align: center;
+    margin: 5px;
+}
+
+.recent-movie img {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.recent-movie p {
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+}
